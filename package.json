@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-form-core-experience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p $npm_package_config_devServerPort",
+    "build": "next build",
+    "start": "next start -p $npm_package_config_devServerPort"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "config": {
+    "devServerPort": "8090"
+  }
+}
